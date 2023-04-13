@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .nav-inner > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    color: white;
+  }
+
+  .nav-inner > ul > li > a:link {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-inner > ul > li > a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav > .nav-inner {
+    height: 3rem;
+    padding-top: 20px;
+    background-color: #3a3a3a;
+  }
+
+  .notice {
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main {
+    height: 100rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .pro-img {
+    width: 100%;
+    height: 30%;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-image: url('./img/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
